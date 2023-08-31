@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Consulta from './components';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={Consulta}>teste</button>
       </header>
     </div>
   );
